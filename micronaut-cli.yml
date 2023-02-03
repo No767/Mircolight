@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: io.no767.mircolight
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle_kotlin
+features: [annotation-api, app-name, github-workflow-ci, github-workflow-docker-registry, graalvm, gradle, h2, hibernate-jpa, http-client, java, java-application, jdbc-hikari, junit, logback, management, micrometer, micrometer-prometheus, micronaut-aot, micronaut-build, openapi, readme, serialization-jackson, shade, swagger-ui, tomcat-server, toml, toml-build]
