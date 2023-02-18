@@ -10,6 +10,9 @@ username = 'sa'
 password = ''
 driver-class-name = 'org.h2.Driver'
 
+[jpa.default.entity-scan]
+packages = ['io.no767.mircolight.models']
+
 [micronaut.router.static-resources.swagger]
 paths = 'classpath:META-INF/swagger'
 mapping = '/swagger/**'
